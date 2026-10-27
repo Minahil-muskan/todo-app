@@ -1,15 +1,15 @@
 # To-Do App (React + Vite)
 
-Simple to-do app: add, edit (double-click ya ✎), complete, delete, filter, aur localStorage mein auto-save.
+Simple to-do app: add, edit (double-click or ✎), complete, delete, filter, and auto-save in localstorage.
 
-## Run karne ka tareeqa
+## commands for the app run
 
 ```bash
 npm install
 npm run dev
 ```
 
-Phir browser mein `http://localhost:5173` kholein.
+then access from the browser `http://localhost:5173`.
 
 ## Build
 

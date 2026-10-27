@@ -62,7 +62,8 @@ export default function App() {
       <form className="add-form" onSubmit={addTodo}>
         <input
           type="text"
-          placeholder="Naya task likhein..."
+          /*Text Edited by HAfsa */
+          placeholder="Add New Task..."
           value={text}
           onChange={(e) => setText(e.target.value)}
         />
@@ -82,7 +83,7 @@ export default function App() {
       </div>
 
       <ul className="list">
-        {visible.length === 0 && <li className="empty">Koi task nahi</li>}
+        {visible.length === 0 && <li className="empty">No Task</li>}
         {visible.map((todo) => (
           <li key={todo.id} className={todo.done ? "done" : ""}>
             <input
@@ -120,9 +121,9 @@ export default function App() {
       </ul>
 
       <div className="footer">
-        <span>{remaining} task baqi</span>
+        <span>{remaining} task remaining</span>
         <button className="link" onClick={clearCompleted}>
-          Completed clear karein
+          Completed clear
         </button>
       </div>
     </div>
